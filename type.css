@@ -1,0 +1,109 @@
+div#social-network{
+   font-size: 2.6em;
+}
+
+button.btn{
+   width: 100%;
+   min-width: 50px; 
+   max-width: 90px; 
+   background-color: #7c04eb;
+   color:#fff;
+   padding: 14px 25px 18px 20px;
+   border-left: 2px solid #fff;
+   border-right: 2px solid #fff;
+   border-top: 2px solid #fff;
+   border-bottom: 2px solid #fff;
+ 
+}
+
+button#fb{
+   background-image: url( './img/fb1.png' );
+   background-repeat: no-repeat;
+   background-size: 60px 60px;
+   height: 65px;  
+   width: 65px;
+}
+
+button#in{
+   background-image: url( './img/ins1.png' );   
+   background-repeat: no-repeat;
+   background-size: 60px 60px;
+   height: 65px;  
+   width: 65px;
+}
+/*
+button#tw{
+   background-image: url( './img/twitter1.png' );
+   background-repeat: no-repeat;
+   background-size: 60px 60px;
+   height: 65px;  
+   width: 65px;
+}
+*/
+button#yo{
+   background-image: url( './img/you1.png' );
+   background-repeat: no-repeat;
+   background-size: 60px 60px;
+   height: 65px;  
+   width: 65px;
+}
+
+button.btn:hover{
+   background-color: #fff;
+   transition: .5s ease-in;
+   border-top: 2px solid #7c04eb;
+   border-left: 2px solid #7c04eb;
+   border-right: 2px solid #7c04eb;
+   border-bottom: 2px solid #7c04eb;
+}
+
+button#fb:hover{
+   background-image: url( './img/fb.png' );   
+   background-color: #fff;
+   transition: 1.5s ease;
+   border-top: 2px solid #7c04eb;
+   border-left: 2px solid #7c04eb;
+   border-right: 2px solid #7c04eb;
+   border-bottom: 2px solid #7c04eb;
+}
+
+button#in:hover{
+   background-image: url( './img/ins.png' );   
+   background-color: #fff;
+   transition: 1.5s ease;
+   border-top: 2px solid #7c04eb;
+   border-left: 2px solid #7c04eb;
+   border-right: 2px solid #7c04eb;
+   border-bottom: 2px solid #7c04eb;
+}
+/*
+button#tw:hover{
+   background-image: url( './img/twitter.png' );   
+   background-color: #fff;
+   transition: 1.5s ease;
+   border-top: 2px solid #7c04eb;
+   border-left: 2px solid #7c04eb;
+   border-right: 2px solid #7c04eb;
+   border-bottom: 2px solid #7c04eb;
+}
+*/
+button#yo:hover{
+   background-image: url( './img/you.png' );   
+   background-color: #fff;
+   transition: 1.5s ease;
+   border-top: 2px solid #7c04eb;
+   border-left: 2px solid #7c04eb;
+   border-right: 2px solid #7c04eb;
+   border-bottom: 2px solid #7c04eb;
+}
+
+
+
+@media all and (min-width:321px) and (max-width:480px){
+ button.btn{ 
+  display:block;
+  margin:0.4em auto;
+ }
+} 
+
+	
